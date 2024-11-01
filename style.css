@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Inter-Light';
+    src: url(./images/Inter/static/Inter_18pt-Light.ttf);
+}
+
+
+:root{
+    --main-font:'Inter Light'
+}
+
+* {
+    box-sizing:border-box;
+    line-height:1.5;
+}
+
+body {
+    margin : 0;
+    font-family: var(--main-font);
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer a {
+    color: hsl(228, 45%, 44%); 
+}
