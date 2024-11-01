@@ -4,8 +4,7 @@
 }
 @font-face {
     font-family: 'Inter-Bold';
-    src: url(./images/Inter/Inter-VariableFont_opsz\,wght.ttf);
-    font-weight: 700;
+    src: url(./images/Inter/static/Inter_24pt-Bold.ttf);
 }
 
 :root{
@@ -112,7 +111,7 @@ header h1{
     margin:2em;
 }
 
-.youtube p:last-of-type{
+.tenddown{
     color:var(--red);
     font-family: var(--bold-font);
     margin:2em;
@@ -129,8 +128,23 @@ h2{
 
 .today div{
     background-color: var(--card-bg-light);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-/* titre des overview en 14PX */
+
+h3{
+    font-size: 14px;
+    font-family: var(--bold-font);
+    color: var(--text-light-grey);
+}
+
+.new{
+    font-size: var(--bold-font);
+    color:var(--text-dark-light-theme);
+    font-size: 3rem;
+    font-weight: 1000;
+    margin:0;
+}
 
 footer { 
     font-size: 11px; 
